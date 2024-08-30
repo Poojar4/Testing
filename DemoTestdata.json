@@ -1,0 +1,42 @@
+{
+    "locators":{
+        "RegisterLink":"//a[text()='Register']",
+        "GenderButton":"#gender-female",
+        "Firstname":"#FirstName",
+        "Lastname":"#LastName",
+        "Email":"#Email",
+        "Password":"#Password",
+        "ConfirmPassword":"#ConfirmPassword",
+        "RegisterButton":"#register-button",
+        "ErrorMessage1":"//li[text()='The specified email already exists']",
+        "LoginLink":"//a[text()='Log in']",
+        "LoginButton":"//input[@type='submit' and @value='Log in']",
+        "ErrorMessage2":"//div[@class='validation-summary-errors']",
+        "BooksPage":"(//a[contains(text(),'Books')])[1]",
+        "Books":"//h1[text()='Books']",
+        "PositionDropdown":"#products-orderby",
+        "SelectPrice":"//option[text()='Price: Low to High']",
+        "Book1":"(//img[@title='Show details for Computing and Internet'])[1]",
+        "AddToCart1":"(//input[@value='Add to cart'])[1]",
+        "ConfirmationMessage":"//p[contains(text(),'The product has been added')]",
+        "Book2":"(//img[@alt='Picture of Health Book'])[1]",
+        "Science":"//a[text()='Science']",
+        "AddToCart2":"(//input[@class='button-2 product-box-add-to-cart-button'])[2]",
+        "ComputerPage":"(//a[contains(text(),'Computers')])[1]",
+        "Computers":"//h1[text()='Computers']",
+        "Desktops":"//a[@title='Show products in category Desktops']//parent::h2",
+        "ComputerPicture":"(//img[@alt='Picture of Build your own cheap computer'])[1]",
+        "ProductTags":"//strong[text()='Product tags']",
+        "AddToCart3":"//input[@class='button-1 add-to-cart-button']",
+        "ShoppingCart":"//span[text()='Shopping cart']",
+        "CountryDropdown":"//select[@name='CountryId']",
+        "IndiaText":"//option[text()='India']",
+        "ZipCode":"#ZipPostalCode",
+        "EstimateShipping":"//input[@class='button-2 estimate-shipping-button']",
+        "TotalAmount":"(//span[contains(text(),'Total:')])[1]",
+        "Checkbox":"//input[@name='termsofservice']",
+        "checkoutButton":"//button[@class='button-1 checkout-button']"
+
+
+    }
+}

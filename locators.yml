@@ -1,0 +1,9 @@
+{
+"locators":{
+  "welcomePageText":"//h1[text()='Welcome to the-internet']",
+  "availableExample":"Available Examples"
+
+
+
+}
+}

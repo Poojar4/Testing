@@ -1,0 +1,43 @@
+
+{
+  "name": "wdio_cucumber",
+  "version": "1.0.0",
+  "description": "wdio_ts",
+  "main": "index.js",
+  "type": "module",
+  
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.ts --spec EndToEnd.feature"
+  },
+  "keywords": [
+    "wdio",
+    "ts",
+    "cucumber"
+  ],
+  "author": "Pooja",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^3.3.2",
+    "wdio": "^6.0.1",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.14.15",
+    "@wdio/allure-reporter": "^8.39.0",
+    "@wdio/cli": "^9.0.7",
+    "@wdio/cucumber-framework": "^8.39.0",
+    "@wdio/local-runner": "^8.39.1",
+    "@wdio/spec-reporter": "^8.39.0",
+    "@wdio/types": "^9.0.4",
+    "@wdio/visual-service": "^5.1.0",
+    "allure-commandline": "^2.29.0",
+    "chromedriver": "^126.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

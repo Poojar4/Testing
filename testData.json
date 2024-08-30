@@ -1,0 +1,26 @@
+{
+    "locators":{
+    "PName1": "//div[text()='Sauce Labs Backpack']",
+    "PName2": "#add-to-cart-sauce-labs-bike-light",
+    "AddToCart1": "#add-to-cart-sauce-labs-backpack",
+    "LoginButton": "#login-button",
+    "AddToCart2": "#add-to-cart-sauce-labs-bike-light",
+    "ShoppingCart": ".shopping_cart_badge",
+    "CheckoutButton": "#checkout",
+    "Firstname": "#first-name",
+    "Lastname":"#last-name",
+    "PostalCode": "#postal-code",
+    "ContinueButton": "#continue",
+    "TotalAmount": ".summary_total_label",
+    "FinishButton": "#finish",
+    "ConfirmationText": "#checkout_complete_container",
+    "Backbutton": "#back-to-products",
+    "BurgerMenu": "#react-burger-menu-btn",
+    "Logout": "#logout_sidebar_link",
+    "ABTesting": "//a[text()='A/B Testing']"
+    
+    }
+}
+
+
+
